@@ -53,7 +53,7 @@ In Intune, navigate to "Devices" \> macOS \> Configuration profiles, and create 
 
 Select Templates and Custom
 
-![Screentshot4](images/screen4.png)]
+![Screentshot4](images/screen4.png)
 
 Name the profile and click next. 
 
