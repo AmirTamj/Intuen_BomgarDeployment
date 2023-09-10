@@ -15,6 +15,19 @@ Go to Scripts folder.
 Copy the postinstall.sh to project directory.
 
 Edit the postinstall.sh with your install key.
+```
+#!/bin/bash
+PROCESS=bomgar
+number=$(ps aux | grep -v grep | grep -ci $PROCESS)
+
+if [ $number -eq 0 ]
+    then    
+        scriptDir=$(dirname $0)
+        hdiutil attach -nobrowse -mountpoint /Volumes/bomgar-install $scriptDir/bomgar-scc-InstallKey.dmg
+        sudo /Volumes/bomgar-install/Double-Click\ To\ Start\ Support\ Session.app/Contents/MacOS/sdcust --silent
+        sleep 15
+fi
+```
 
 On Packages script tab, import postinstall.sh and bomgar.dmg as additional resource
 ![Screenshot1](images/screen1.png)
