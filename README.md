@@ -28,6 +28,7 @@ fi
 ```
 
 On Packages, go to the script tab and import "postinstall.sh" and "bomgar.dmg" from the project folder.
+
 ![Screenshot1](images/screen1.png)
 
 Use Command+B or build menu to build the package.
@@ -36,12 +37,14 @@ Use Command+B or build menu to build the package.
 Open Intune portal, navigate to Apps, \> macOS \> and Add.
 
 Select "macOS app \(PKG\). 
+
 ![Screnshot2](images/screen2.png)
 
 Browse to project folder \> Build and upload the pkg file.
 
 Enter name, description, and publisher info
-![Screenshot3](images/image.png)
+
+![Screenshot3](images/screen3.png)
 
 Choose the desire minimum OS requirements, accept the default detection rule, assign to desired group for deployment, and create.
 
@@ -49,9 +52,11 @@ Choose the desire minimum OS requirements, accept the default detection rule, as
 In Intune, navigate to "Devices" \> macOS \> Configuration profiles, and create a profile.
 
 Select Templates and Custom
+
 ![Screentshot4](images/screen4.png)]
 
 Name the profile and click next. 
 
 Browse to Bomgar.mobileconfig, click next and assign to desired group, and create the profile.
+
 ![Screenshot5](images/screen5.png)
