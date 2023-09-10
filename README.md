@@ -1,4 +1,4 @@
-#Deploy Bomgar jump client on Mac OS with Intune
+# Deploy Bomgar jump client on Mac OS with Intune
 
 ## Download
 Downlaod & install [Pakckages for MacOS](http://s.sudre.free.fr/Software/Packages/about.html)
