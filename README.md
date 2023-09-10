@@ -8,13 +8,17 @@ Download Bomgar-scc-\<GUID\> DMG for progragmmatic installation from your bomgar
 Download the "postinstall.sh" and "Bomgar.mobileconfig" files.
 
 ## Create a custom pkg file
-Open packages and create a raw project, name the project and add the working directory
-Go to Scripts folder
-Copy the postinstall.sh to project directory
-Edit the postinstall.sh with your install key
+Open packages and create a raw project, name the project and add the working directory.
+
+Go to Scripts folder.
+
+Copy the postinstall.sh to project directory.
+
+Edit the postinstall.sh with your install key.
 
 On Packages script tab, import postinstall.sh and bomgar.dmg as additional resource
-![Screenshot1](image.png)
-Command+B to build the package
+![Screenshot1](images/screen1.png)
+
+Command+B to build the package.
 
 Create a new Intune MacOS app and select PKG
