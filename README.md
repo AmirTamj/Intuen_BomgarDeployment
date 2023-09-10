@@ -3,7 +3,7 @@
 ## Download
 Downlaod & install [Pakckages for MacOS](http://s.sudre.free.fr/Software/Packages/about.html).
 
-Download Bomgar-scc-<InstallKey> DMG for progragmmatic installation from your bomgar appliance.
+Download Bomgar-scc-\<GUID\> DMG for progragmmatic installation from your bomgar appliance.
 
 Download the "postinstall.sh" and "Bomgar.mobileconfig" files.
 
