@@ -1,18 +1,16 @@
-# Deploy Bomgar jump client on Mac OS with Intune
+# Deploy BeyondTrust Bomgar jump client on Mac OS with Intune
 
 ## Download
 Downlaod & install [Pakckages for MacOS](http://s.sudre.free.fr/Software/Packages/about.html).
 
 Download Bomgar-scc-\<GUID\> DMG for progragmmatic installation from your bomgar appliance.
 
-Download the "postinstall.sh" and "Bomgar.mobileconfig" files.
+Download the provided "postinstall.sh" and "Bomgar.mobileconfig" files.
 
 ## Create a custom pkg file
 Open packages and create a raw project, name the project and add the working directory.
 
-Go to Scripts folder.
-
-Copy the postinstall.sh to project directory.
+Copy the postinstall.sh and Bomgar-scc-\<GUID\>.dmg files to project directory.
 
 Edit the postinstall.sh with your install key.
 ```
@@ -29,9 +27,10 @@ if [ $number -eq 0 ]
 fi
 ```
 
-On Packages script tab, import postinstall.sh and bomgar.dmg as additional resource
+On Packages, go to the script tab and import "postinstall.sh" and "bomgar.dmg" from the project folder.
 ![Screenshot1](images/screen1.png)
 
-Command+B to build the package.
+Use Command+B or build menu to build the package.
 
+## Deploy the package with Intune
 Create a new Intune MacOS app and select PKG
