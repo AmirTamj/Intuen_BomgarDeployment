@@ -1,4 +1,5 @@
-# Deploy BeyondTrust Bomgar jump client on Mac OS with Intune
+# ![AmirTamj][logo] Deploy BeyondTrust Bomgar jump client on Mac OS with Intune
+[logo]: /images/Logo.png "AmirTamj Logo"
 
 ## Download
 Downlaod & install [Pakckages for MacOS](http://s.sudre.free.fr/Software/Packages/about.html).
